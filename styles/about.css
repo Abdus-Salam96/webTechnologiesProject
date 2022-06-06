@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+  padding: 20px;
+  color: white;
+  background-color: #06054a;
+  padding-top: 30px;
+}
+
+.logo {
+  margin: -100px;
+  font-family: "Macondo", cursive;
+  margin-left: -120px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-links > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover {
+  border-bottom: 3px solid white;
+}
+
+.sign-up-cta {
+  margin-right: -100px;
+}
+.sign-up-cta > button:hover {
+  color: white;
+  background-color: #665df5;
+  border: 3px solid #665df5;
+  box-shadow: 2px 2px black;
+}
+.sign-up-cta > button {
+  all: unset;
+  border: 2px white;
+  border-radius: 3px;
+  padding: 3px;
+  padding: 10px 15px;
+  color: white;
+}
+
+main {
+  color: white;
+  background-color: #06054a;
+  height: 300px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  font-family: "Rubik", sans-serif;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+section {
+  margin-left: 10px;
+}
+
+section.about {
+  width: 50%;
+  margin: auto;
+}
+section.about > h1 {
+  margin-bottom: 10px;
+}
+
+section.about > h2 {
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+svg {
+  position: relative;
+  top: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 500px;
+  display: flex;
+  padding: 50px;
+}
+
+.newsletter,
+.socials {
+  border-right: 1px solid white;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.newsletter > p {
+  margin-bottom: 20px;
+}
+
+.newsletter > img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.socials {
+  width: 400px;
+}
+
+footer a:link,
+footer a:hover,
+footer a:active,
+footer a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.socials i {
+  /* vertical-align: sub; */
+  margin-right: 5px;
+}
+
+.socials > div {
+  margin: 20px;
+}
+
+.address > address {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+  padding: 20px;
+}
+
+.logo {
+  margin: -100px;
+  font-family: "Macondo", cursive;
+  margin-left: -120px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.icon {
+  display: none;
+}
+
+.nav-links > ul > li > a {
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  border-bottom: 3px solid #000;
+}
+
+.sign-up-cta {
+  margin-right: -100px;
+}
+.sign-up-cta > button:hover {
+  color: white;
+  background-color: #665df5;
+  border: 3px solid #665df5;
+  box-shadow: 2px 2px black;
+}
+.sign-up-cta > button {
+  all: unset;
+  border: 2px solid;
+  border-radius: 3px;
+  padding: 3px;
+  padding: 10px 15px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-basis: 40%;
+}
+
+.left-col > h1 {
+  margin-bottom: 20px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  width: 300px;
+}
+button {
+  all: unset;
+  padding: 12px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #665df5;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+.right-col > img {
+  width: 500px;
+  height: 500px;
+}
+
+svg {
+  position: relative;
+  top: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 500px;
+  display: flex;
+  padding: 50px;
+}
+
+footer a:link,
+footer a:hover,
+footer a:active,
+footer a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.newsletter,
+.socials {
+  border-right: 1px solid white;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.newsletter > p {
+  margin-bottom: 20px;
+}
+
+.newsletter > img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.socials {
+  width: 400px;
+}
+
+.socials i {
+  vertical-align: sub;
+  margin-right: 5px;
+}
+
+.socials > div {
+  margin: 20px;
+}
+
+.address > address {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .topNav,
+  .sign-up-cta {
+    display: none;
+  }
+  a.icon {
+    /* float: right; */
+    display: block;
+  }
+}
+@media screen and (max-width: 1000px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    margin-left: 0;
+  }
+
+  .topNav.responsive {
+    display: block;
+    position: absolute;
+    right: 10px;
+    height: 100px;
+
+    margin-top: 20px;
+    background-color: #665df5;
+  }
+  .topNav.responsive li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

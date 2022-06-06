@@ -1,0 +1,166 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+  padding: 20px;
+  color: white;
+  background-color: #06054a;
+  padding-top: 30px;
+}
+
+.logo {
+  margin: -100px;
+  font-family: "Macondo", cursive;
+  margin-left: -120px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-links > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover {
+  border-bottom: 3px solid white;
+}
+
+.sign-up-cta {
+  margin-right: -100px;
+}
+.sign-up-cta > button:hover {
+  color: white;
+  background-color: #665df5;
+  border: 3px solid #665df5;
+  box-shadow: 2px 2px black;
+}
+.sign-up-cta > button {
+  all: unset;
+  border: 2px white;
+  border-radius: 3px;
+  padding: 3px;
+  padding: 10px 15px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  font-family: monospace;
+}
+
+.left-col {
+  width: 40%;
+  background-color: rgb(23, 31, 80);
+  height: 100%;
+  color: white;
+  margin-right: 50px;
+}
+
+.right-col {
+  width: 60%;
+  height: 100%;
+}
+
+.right-col-header {
+  background-color: rgb(23, 31, 80);
+  color: burlywood;
+}
+
+.no-marker {
+  list-style-type: none;
+}
+
+table,
+td,
+th {
+  border: 2px rgb(23, 31, 80) solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+}
+
+.background-yellow {
+  background-color: gold;
+  color: white;
+  width: 102%;
+}
+
+.hobbie-container {
+  display: flex;
+}
+
+.english,
+.spanish,
+.german,
+.france {
+  background-color: white;
+  width: 100px;
+  height: 10px;
+  margin: 21px;
+}
+
+.lang-container {
+  display: flex;
+}
+
+.english2 {
+  background-color: gold;
+  width: 90%;
+  height: 100%;
+}
+
+.spanish2 {
+  background-color: gold;
+  width: 70%;
+  height: 100%;
+}
+
+.german2 {
+  background-color: gold;
+  width: 50%;
+  height: 100%;
+}
+
+.france2 {
+  background-color: gold;
+  width: 80%;
+  height: 100%;
+}
+
+.photo {
+  position: relative;
+}
+
+.caption {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  z-index: 99999;
+  background-color: rgba(23, 31, 80, 0.7);
+  width: 100%;
+}
+
+/* ul li::before {
+  content: "\2022";
+  color: burlywood;
+  margin-right: 10px;
+} */
+
+.lang-left {
+  margin-left: 50px;
+}
